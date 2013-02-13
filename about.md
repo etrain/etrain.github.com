@@ -13,4 +13,6 @@ Prior to Berkeley, I spent a few years in industry. From 2007 to 2010 I was a qu
 
 In my spare time, I like golf, cooking, and [jumping off of high things](http://www.dartmouthsports.com/ViewArticle.dbml?DB_OEM_ID=11600&ATCLID=683330).
 
-You can find me on [linkedin](http://www.linkedin.com/in/ersparks/), [google scholar](http://scholar.google.com/citations?user=Hs3AnAkAAAAJ), [twitter](https://twitter.com/evanrsparks), [hacker news](http://news.ycombinator.com/user?id=etrain), or [github](http://github.com/etrain/). My e-mail address is lastname at cs dot berkeley dot edu.
+You can find me on [linkedin](http://www.linkedin.com/in/ersparks/), [google scholar](http://scholar.google.com/citations?user=Hs3AnAkAAAAJ), [twitter](https://twitter.com/evanrsparks), [hacker news](http://news.ycombinator.com/user?id=etrain), or [github](http://github.com/etrain/).
+
+My e-mail address is lastname at cs dot berkeley dot edu.
