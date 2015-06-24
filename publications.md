@@ -5,6 +5,7 @@ description: "A list of my publications."
 group: navigation
 ---
 {% include JB/setup %}
+<li>E. Sparks, A. Talwalkar, D. Haas, M. J. Franklin, M. I. Jordan, T. Kraska. Automating Model Search for Large Scale Machine Learning, (to Appear) In Symposium on Cloud Computing, 2015.</li>
 <li>E. Sparks, A. Talwalkar, M. J. Franklin, M. I. Jordan, T. Kraska. TuPAQ: An Efficient Planner for Large-scale Predictive Analytic Queries, arXiv:1502.00068 (<a href="http://arxiv.org/pdf/1502.00068v2">pdf</a>)</li>
 <li>E. Sparks, A. Talwalkar, V. Smith, J. Kottalam, X. Pan, J. Gonzalez, M. Franklin, M. Jordan, T. Kraska. MLI: An API for Distributed Machine Learning, In International Conference on Data Mining, 2013. (<a href="http://arxiv-web3.library.cornell.edu/pdf/1310.5426v2.pdf">pdf</a>)</li>
 <li>A. Talwalkar, T. Kraska, R. Griffith, J. Duchi, J. Gonzalez, D. Britz, X. Pan, V. Smith, E. Sparks, A. Wibisono, M. J. Franklin, M. I. Jordan. MLbase: A Distributed Machine Learning Wrapper. In Big Learning Workshop at NIPS, 2012. (<a href="http://www.cs.berkeley.edu/~ameet/dmx_nips.pdf">pdf</a>)</li>
