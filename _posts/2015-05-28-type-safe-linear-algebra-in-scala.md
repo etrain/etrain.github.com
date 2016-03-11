@@ -13,6 +13,7 @@ However, there's one area of my development life where type safety hasn't done m
 ###The Problem
 
 Anyone who has taken a basic linear algebra class or played around with numerical code knows about dimension alignment - in python it looks like this:
+
 ```python
 >>> np.random.rand(2,2) * np.random.rand(3,1)
 Traceback (most recent call last):
@@ -21,6 +22,7 @@ ValueError: operands could not be broadcast together with shapes (2,2) (3,1)
 ```
 
 In Scala, using the *awesome* [breeze](https://github.com/scalanlp/breeze) library, it looks like this:
+
 ```scala
 scala> import breeze.linalg._
 import breeze.linalg._
@@ -50,6 +52,7 @@ The basic observation here is twofold:
 2. By forcing the user to provide just a little more information to the type system, we can get type safety for linear algebra in a sensible way.
 
 So, now for the code - first, let's define a Matrix type that contains two type parameters - A and B, which has some basic operations:
+
 ```scala
 import breeze.linalg._
 
@@ -76,6 +79,7 @@ object MatrixUtils {
 ```
 
 So let's see it in action:
+
 ```scala
 import MatrixUtils._
 
