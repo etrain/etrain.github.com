@@ -13,15 +13,15 @@ However, there's one area of my development life where type safety hasn't done m
 ###The Problem
 
 Anyone who has taken a basic linear algebra class or played around with numerical code knows about dimension alignment - in python it looks like this:
-{% highlight python %}
+```python
 >>> np.random.rand(2,2) * np.random.rand(3,1)
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 ValueError: operands could not be broadcast together with shapes (2,2) (3,1) 
-{% endhighlight %}
+```
 
 In Scala, using the *awesome* [breeze](https://github.com/scalanlp/breeze) library, it looks like this:
-{% highlight scala %}
+```scala
 scala> import breeze.linalg._
 import breeze.linalg._
 
@@ -33,7 +33,7 @@ java.lang.IllegalArgumentException: requirement failed: Dimension mismatch!
 	at breeze.linalg.NumericOps$class.$times(NumericOps.scala:261)
 	at breeze.linalg.DenseMatrix.$times(DenseMatrix.scala:54)
 ...
-{% endhighlight %}
+```
 
 That is - if you want to multiply two matrices, their dimensions have to match up in the right way. An (n x d) matrix can only be multiplied on the left by a matrix that's (something x n) or on the right by a matrix that's (d x something). 
 
@@ -50,7 +50,7 @@ The basic observation here is twofold:
 2. By forcing the user to provide just a little more information to the type system, we can get type safety for linear algebra in a sensible way.
 
 So, now for the code - first, let's define a Matrix type that contains two type parameters - A and B, which has some basic operations:
-{% highlight scala %}
+```scala
 import breeze.linalg._
 
 class Matrix[A,B](val mat: DenseMatrix[Double]) {
@@ -60,11 +60,11 @@ class Matrix[A,B](val mat: DenseMatrix[Double]) {
     def :*(other: Matrix[A,B]): Matrix[A,B] = new Matrix[A,B](mat :* other.mat)
     def *(scalar: Double): Matrix[A,B] = new Matrix[A,B](mat * scalar)
 }
-{% endhighlight %}
+```
 
 Additionally, I'll create some helper functions - one to read data in from file and the other to invert a square matrix:
 
-{% highlight scala %}
+```scala
 object MatrixUtils {
   def readcsv[A,B](filename: String) = new Matrix[A,B](csvread(new java.io.File(filename)))
   
@@ -73,10 +73,10 @@ object MatrixUtils {
   def ident[D](d: Int): Matrix[D,D] = new Matrix[D,D](DenseMatrix.eye(d))
   
 }
-{% endhighlight %}
+```
 
 So let's see it in action:
-{% highlight scala %}
+```scala
 import MatrixUtils._
 
 class N
@@ -90,7 +90,7 @@ val z1 = x * x //Does not compile!
 val z2 = x.t * y //Compiles! Returns a Matrix[D,K]
 val z3 = x.t * x //Compiles! Returns a Matrix[D,D]
 val z4 = x * x.t //Compiles! Returns a Matrix[N,N]
-{% endhighlight %}
+```
 
 What have we done her? We've first defined some classes to represent our dimensions (which are abstract) - then we've created some matrices and assigned labels to these dimensions. We could just has easily have read `x` or `y` from file - provided we knew their intended shapes.
 
@@ -110,32 +110,32 @@ A and B are fixed matrixes (say "data" and "labels" in the case of machine learn
 
 Or, written with my handy Matrix library:
 
-{% highlight scala %}
+```scala
 import MatrixUtils._
 
 def solve[X,Y,Z](a: Matrix[X,Y], b: Matrix[X,Z], lambda: Double) = {
   inverse((a.t * a) + ident[Y](a.mat.cols)*lambda) * a.t * b
 }
-{% endhighlight %}
+```
 
 And what does the type signature of solve look like?
 
-{% highlight scala %}
+```scala
 solve: [X, Y, Z](a: Matrix[X,Y], b: Matrix[X,Z], lambda: Double)Matrix[Y,Z]
-{% endhighlight %}
+```
 
 The compiler has figured out that the result of my solve procedure is an (Y x Z) matrix - which in the specific case of my data is (D x K). If you're familiar with linear regression, this should seem right!
 
 And to actually use it:
 
-{% highlight scala %}
+```scala
 val z = solve(x, y, 1e2)
 
 val predictions = x * z
 
 //Meanwhile, this won't compile:
 val z2 = solve(x.t, y, 1e2)
-{% endhighlight %}
+```
 
 And that's it. I can be sure that z has the right shape, because the compiler tells me so, and I can be sure that if I had screwed up the dimensions somewhere, I'll be told at *compile* time, rather than 30 minutes in to a 2-hour, 100 node job on a cluster.
 
