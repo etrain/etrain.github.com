@@ -10,7 +10,7 @@ Thanks to Scala, lately I've been appreciating type safety more and more when pr
 
 However, there's one area of my development life where type safety hasn't done much for me -- specifically numerical linear algebra and, by consequence, machine learning. In this post I'll explain what that problem is, and propose a solution to backport type safety onto linear algebra operations in Scala, in a non-intrusive way.
 
-###The Problem
+### The Problem
 
 Anyone who has taken a basic linear algebra class or played around with numerical code knows about dimension alignment - in python it looks like this:
 
@@ -43,7 +43,7 @@ There's something to notice about the errors above. First, they're data dependen
 
 Matrix-matrix multiplication is at the very heart of advanced analytics, machine learning, and high performance scientific computing - so it's comes up in complicated and non-trivial ways at the center of some very complicated algorithms. I can't tell you the number of bugs I've hit because I forgot to transpose or because I assumed that the data was coming in in one shape and in fact it came in in another, and I believe this to be a common experience among programmers of algorithms like this. Heck - even the theoreticians will tell you that half the work in checking their proofs for correctness is making sure that the dimensions line up. (I kid, but only a little.)
 
-###A Solution
+### A Solution
 
 So how do we avoid this mess and get the type system to check our dimensions for us? If you came to this post hoping to read about Algebraic Data Types and Monads, then I'm sorry, this is not the post you were hoping for. Instead, I'll propose a simple solution that does the trick without resorting to type system black magic. 
 
@@ -100,7 +100,7 @@ What have we done her? We've first defined some classes to represent our dimensi
 
 Finally, we tried some basic linear algebra (matrix multiplication!) on this stuff. 
 
-###So what?
+### So what?
 
 Well, here's the punchline - we can now implement something reasonably complicated - say, solving an L2-regularized linear system using the normal equations - using the above classes, be sure that my code is actually going to run if I feed it data of the right shape, and as a bonus have the compiler confirm for me that my method actually has the right dimensions.
 
@@ -144,7 +144,7 @@ val z2 = solve(x.t, y, 1e2)
 And that's it. I can be sure that z has the right shape, because the compiler tells me so, and I can be sure that if I had screwed up the dimensions somewhere, I'll be told at *compile* time, rather than 30 minutes in to a 2-hour, 100 node job on a cluster.
 
  
-###Conclusion
+### Conclusion
 
 In this post, I've described a problem which, I think, plagues a lot of people who do numerically intensive computing, and proposed a simple solution that relies on the type system to help cope with this problem. Of course, this isn't going to solve all problems - for example, if the solution to some problem is square, and you forget to transpose it, the compiler can't catch that for you.
 
