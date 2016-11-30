@@ -6,8 +6,8 @@ group: navigation
 ---
 {% include JB/setup %}
 <li>E. R. Sparks, S. Venkataraman, T. Kaftan, M. Franklin, B. Recht. KeystoneML: Optimizing Pipelines for Large-Scale Advanced Analytics. (pre-print <a href="https://arxiv.org/abs/1603.03336">pdf</a>)</li>
-<li>H. Qi, E. R. Sparks, A. Talwalkar. Paleo: A Performance Model for Deep Neural Networks, (under submission)</li>
-<li>F. Belletti, E. R. Sparks, M. Franklin, A. Bayen, J.E. Gonzalez. Scalable Linear Causal Inference for Irregularly Sampled Time Series with Long Range Dependencies. (pre-print <a href="https://arxiv.org/abs/1603.03336">pdf</a>)</li>
+<li>H. Qi, E. R. Sparks, A. Talwalkar. Paleo: A Performance Model for Deep Neural Networks, (<a href="https://openreview.net/forum?id=SyVVJ85lg">under submission</a>)</li>
+<li>F. Belletti, E. R. Sparks, M. Franklin, A. Bayen, J.E. Gonzalez. Scalable Linear Causal Inference for Irregularly Sampled Time Series with Long Range Dependencies, (to Appear) NIPS 2016 Time Series Workshop. (pre-print <a href="https://arxiv.org/abs/1603.03336">pdf</a>)</li>
 <li>F. Belletti, E. R. Sparks, M. Franklin, A. Bayen. Embarassingly parallel time series analysis for large scale weak memory systems. (pre-print <a href="https://arxiv.org/abs/1511.06493">pdf</a>)</li>
 <li> R. B. Zadeh, X. Meng, B. Yavuz, A. Staple, L. Pu, S. Venkataraman, E. R. Sparks, A. Ulanov, M. Zaharia. Matrix Computations and Optimization in Apache Spark, KDD 2016. (<a href="https://stanford.edu/~rezab/papers/linalg.pdf">pdf</a>)</li>
 <li>X. Meng, J. Bradley, B. Yavuz, E. R. Sparks, S. Venkataraman, D. Liu, J. Freeman, D. Tsai, M. Amde, S. Owen, D. Xin, R. Xin, M. J. Franklin, R. Zadeh, M. Zaharia, A. Talwalkar. MLlib: Machine Learning in Apache Spark, (to Appear) JMLR-MLOSS, 2015. (<a href="http://arxiv.org/pdf/1505.06807v1">pdf</a>)</li> 
