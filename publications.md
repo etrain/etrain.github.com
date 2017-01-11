@@ -5,7 +5,7 @@ description: "A list of my publications."
 group: navigation
 ---
 {% include JB/setup %}
-<li>E. R. Sparks, S. Venkataraman, T. Kaftan, M. Franklin, B. Recht. KeystoneML: Optimizing Pipelines for Large-Scale Advanced Analytics. (pre-print <a href="https://arxiv.org/abs/1603.03336">pdf</a>)</li>
+<li>E. R. Sparks, S. Venkataraman, T. Kaftan, M. Franklin, B. Recht. KeystoneML: Optimizing Pipelines for Large-Scale Advanced Analytics. To appear, ICDE 2017. (pre-print <a href="https://arxiv.org/abs/1603.03336">pdf</a>)</li>
 <li>H. Qi, E. R. Sparks, A. Talwalkar. Paleo: A Performance Model for Deep Neural Networks, (<a href="https://openreview.net/forum?id=SyVVJ85lg">under submission</a>)</li>
 <li>F. Belletti, E. R. Sparks, M. Franklin, A. Bayen, J.E. Gonzalez. Scalable Linear Causal Inference for Irregularly Sampled Time Series with Long Range Dependencies, (to Appear) NIPS 2016 Time Series Workshop. (pre-print <a href="https://arxiv.org/abs/1603.03336">pdf</a>)</li>
 <li>F. Belletti, E. R. Sparks, M. Franklin, A. Bayen. Embarassingly parallel time series analysis for large scale weak memory systems. (pre-print <a href="https://arxiv.org/abs/1511.06493">pdf</a>)</li>
