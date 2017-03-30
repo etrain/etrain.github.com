@@ -4,7 +4,7 @@ redirect_from: "/about"
 ---
 {% include JB/setup %}
 
-<img src="{{ BASE_PATH}}assets/me.jpg" align="right" width="200" height="200">
+<img src="{{ BASE_PATH}}assets/me.png" align="right" width="200" height="200">
 I am an Entrepreneur in Residence with [Amplify Partners](http://amplifypartners.com/).
 
 I received my Ph.D in [Computer Science at UC Berkeley](http://cs.berkeley.edu/) working in the [AMPLab](http://amplab.cs.berkeley.edu). I was also affiliated with the [BAIR Lab](http://bair.berkeley.edu/). I was advised by [Mike Franklin](http://www.cs.berkeley.edu/~franklin/), but I also did a lot of work with [Ben Recht](https://people.eecs.berkeley.edu/~brecht/), [Mike Jordan](https://people.eecs.berkeley.edu/~jordan/), [Ameet Talwalkar](http://web.cs.ucla.edu/~ameet/), and others. My research focused on the intersection of distributed systems and machine learning. I like building systems that solve problems faster and better than anyone thought possible. During my time at Berkeley, I was involved in projects including [MLlib](http://spark.apache.org/mllib/), [MLbase](http://www.mlbase.org/), and more recently [KeystoneML](http://keystone-ml.org/).
