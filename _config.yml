@@ -7,6 +7,9 @@ safe: true
 lsi: false
 highlighter: rouge
 
+gems:
+  - jekyll-redirect-from
+
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #

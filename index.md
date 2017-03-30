@@ -2,6 +2,7 @@
 layout: page
 title: "About Me"
 description: "About me."
+redirect_from: "/about"
 ---
 {% include JB/setup %}
 
