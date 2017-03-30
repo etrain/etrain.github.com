@@ -17,7 +17,7 @@ AISTATS 2017
 ### [KeystoneML: Optimizing Pipelines for Large-Scale Advanced Analytics](https://amplab.cs.berkeley.edu/wp-content/uploads/2017/01/ICDE_2017_CameraReady_475.pdf)
 E. R. Sparks, S. Venkataraman, T. Kaftan, M. Franklin, B. Recht\\
 ICDE 2017
-<a href="http://keystone-ml.org">website</a>
+[website](http://keystone-ml.org)
 
 ### [Paleo: A Performance Model for Deep Neural Networks](https://openreview.net/pdf?id=SyVVJ85lg)
 H. Qi, E. R. Sparks, A. Talwalkar\\
@@ -41,7 +41,7 @@ KDD 2016
 
 ### [MLlib: Machine Learning in Apache Spark](http://arxiv.org/pdf/1505.06807v1)
 X. Meng, J. Bradley, B. Yavuz, E. R. Sparks, S. Venkataraman, D. Liu, J. Freeman, D. Tsai, M. Amde, S. Owen, D. Xin, R. Xin, M. J. Franklin, R. Zadeh, M. Zaharia, A. Talwalkar\\
-JMLR-MLOSS, 2015
+JMLR-MLOSS, 2015 [website](http://spark.apache.org/mllib/)
  
 ### [Scientific Computing Meets Big Data Technology: An Astronomy Use Case](https://amplab.cs.berkeley.edu/wp-content/uploads/2015/09/Kira-camera-ready.pdf)
 Z. Zhang, K. Barbary, F. A. Nothaft, E. R. Sparks, O. Zahn, M. J. Franklin, D. A. Patterson, S. Perlmutter\\
