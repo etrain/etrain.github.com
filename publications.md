@@ -10,9 +10,9 @@ group: navigation
 Z. Zhang, E. R. Sparks, M. J. Franklin\\
 To appear, HPDC, 2017
 
-### Random projection design for scalable implicit smoothing of randomly observed stochastic processes
+### [Random projection design for scalable implicit smoothing of randomly observed stochastic processes](https://rise.cs.berkeley.edu/wp-content/uploads/2017/03/Aistats_camera_ready.pdf)
 F. Belletti, E. R. Sparks, A. Bayen, K. Keutzer, J. Gonzalez\\
-To appear, AISTATS 2017
+AISTATS 2017
 
 ### [KeystoneML: Optimizing Pipelines for Large-Scale Advanced Analytics](https://amplab.cs.berkeley.edu/wp-content/uploads/2017/01/ICDE_2017_CameraReady_475.pdf)
 E. R. Sparks, S. Venkataraman, T. Kaftan, M. Franklin, B. Recht\\
