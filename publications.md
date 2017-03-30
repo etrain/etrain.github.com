@@ -60,12 +60,12 @@ SoCC, 2015
 ### Scalable Automated Model Search
 E. R. Sparks\\
 UC Berkeley Masters Thesis
-<a href="http://www2.eecs.berkeley.edu/Pubs/TechRpts/2014/EECS-2014-122.pdf">
+<a href="http://www2.eecs.berkeley.edu/Pubs/TechRpts/2014/EECS-2014-122.pdf">pdf</a>
 
 
 ### MLI: An API for Distributed Machine Learning
 E. R. Sparks, A. Talwalkar, V. Smith, J. Kottalam, X. Pan, J. Gonzalez, M. Franklin, M. Jordan, T. Kraska\\
-ICDM, 2013\\
+ICDM, 2013
 <a href="http://arxiv-web3.library.cornell.edu/pdf/1310.5426v2.pdf">pdf</a>
 
 ### MLbase: A Distributed Machine Learning Wrapper. 
