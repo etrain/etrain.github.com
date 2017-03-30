@@ -5,6 +5,7 @@ description: "A list of my publications."
 group: navigation
 ---
 {% include JB/setup %}
+<li>Z. Zhang, E.R. Sparks, M. J. Franklin. Diagnosing Machine Learning Pipelines with Fine-grained Lineage. To appear, HPDC, 2017.</li>
 <li>F. Belletti, E. R. Sparks, A. Bayen, K. Keutzer, J. Gonzalez. Random projection design for scalable implicit smoothing of randomly observed stochastic processes. To appear, AISTATS 2017.</li>
 <li>E. R. Sparks, S. Venkataraman, T. Kaftan, M. Franklin, B. Recht. KeystoneML: Optimizing Pipelines for Large-Scale Advanced Analytics. To appear, ICDE 2017. (<a href="https://amplab.cs.berkeley.edu/wp-content/uploads/2017/01/ICDE_2017_CameraReady_475.pdf">pdf</a>)</li>
 <li>H. Qi, E. R. Sparks, A. Talwalkar. Paleo: A Performance Model for Deep Neural Networks, To appear, ICLR 2017. (<a href="https://openreview.net/pdf?id=SyVVJ85lg">pre-print pdf</a>)</li>
