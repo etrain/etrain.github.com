@@ -22,6 +22,7 @@ ICDE 2017
 ### [Paleo: A Performance Model for Deep Neural Networks](https://openreview.net/pdf?id=SyVVJ85lg)
 H. Qi, E. R. Sparks, A. Talwalkar\\
 ICLR 2017
+[website](https://talwalkarlab.github.io/paleo/)
 
 ### [End-to-end Large Scale Machine Learning with KeystoneML](http://www2.eecs.berkeley.edu/Pubs/TechRpts/2016/EECS-2016-200.pdf)
 E. R. Sparks\\
