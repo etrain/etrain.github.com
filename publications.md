@@ -12,33 +12,33 @@ To appear, HPDC, 2017
 
 ### [Random projection design for scalable implicit smoothing of randomly observed stochastic processes](https://rise.cs.berkeley.edu/wp-content/uploads/2017/03/Aistats_camera_ready.pdf)
 F. Belletti, E. R. Sparks, A. Bayen, K. Keutzer, J. Gonzalez\\
-AISTATS 2017
+AISTATS, 2017
 
 ### [KeystoneML: Optimizing Pipelines for Large-Scale Advanced Analytics](https://amplab.cs.berkeley.edu/wp-content/uploads/2017/01/ICDE_2017_CameraReady_475.pdf)
 E. R. Sparks, S. Venkataraman, T. Kaftan, M. Franklin, B. Recht\\
-ICDE 2017
+ICDE, 2017
 [website](http://keystone-ml.org)
 
 ### [Paleo: A Performance Model for Deep Neural Networks](https://openreview.net/pdf?id=SyVVJ85lg)
 H. Qi, E. R. Sparks, A. Talwalkar\\
-ICLR 2017
+ICLR, 2017
 [website](https://talwalkarlab.github.io/paleo/)
 
 ### [End-to-end Large Scale Machine Learning with KeystoneML](http://www2.eecs.berkeley.edu/Pubs/TechRpts/2016/EECS-2016-200.pdf)
 E. R. Sparks\\
-UC Berkeley Ph.D. Thesis
+UC Berkeley Ph.D. Thesis, 2016
 
 ### [Scalable Linear Causal Inference for Irregularly Sampled Time Series with Long Range Dependencies](https://sites.google.com/site/nipsts2016/NIPS_2016_TSW_paper_26.pdf?attredirects=0&d=1)
 F. Belletti, E. R. Sparks, M. Franklin, A. Bayen, J.E. Gonzalez\\
 NIPS Time Seriews Workshop, 2016
 
 ### [Embarassingly parallel time series analysis for large scale weak memory systems](https://arxiv.org/abs/1511.06493)
-F. Belletti, E. R. Sparks, M. Franklin, A. Bayen
-pre-print
+F. Belletti, E. R. Sparks, M. Franklin, A. Bayen\\
+pre-print, 2016
 
 ### [Matrix Computations and Optimization in Apache Spark](https://stanford.edu/~rezab/papers/linalg.pdf)
 R. B. Zadeh, X. Meng, B. Yavuz, A. Staple, L. Pu, S. Venkataraman, E. R. Sparks, A. Ulanov, M. Zaharia\\
-KDD 2016
+KDD, 2016
 
 ### [MLlib: Machine Learning in Apache Spark](http://arxiv.org/pdf/1505.06807v1)
 X. Meng, J. Bradley, B. Yavuz, E. R. Sparks, S. Venkataraman, D. Liu, J. Freeman, D. Tsai, M. Amde, S. Owen, D. Xin, R. Xin, M. J. Franklin, R. Zadeh, M. Zaharia, A. Talwalkar\\
@@ -54,7 +54,7 @@ SoCC, 2015
 
 ### [Scalable Automated Model Search](http://www2.eecs.berkeley.edu/Pubs/TechRpts/2014/EECS-2014-122.pdf)
 E. R. Sparks\\
-UC Berkeley Masters Thesis
+UC Berkeley Masters Thesis, 2014
 
 
 ### [MLI: An API for Distributed Machine Learning](http://arxiv-web3.library.cornell.edu/pdf/1310.5426v2.pdf)
